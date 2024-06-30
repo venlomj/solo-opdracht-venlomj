@@ -1,0 +1,57 @@
+
+*{
+    margin: 0;
+    padding: 0;}
+body{
+        background-color:  beige;
+    }
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.container {
+    color: #000;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    padding: 10px;
+}
+p{
+    padding-bottom: 10px;
+}
+
+
+@media screen and (max-width: 700px) {
+    body {
+        background-image: url("../errorimg/w1Turn.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .container {
+        color: #fff;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        text-shadow: 2px 2px black;
+        vertical-align: center;
+        font-family: 'Crimson Text', serif;
+    }
+
+    h1 {
+        padding: 10px;
+    }
+
+    p {
+        padding-bottom: 10px;
+    }
+
+    img {
+        display: none;
+    }
+}
